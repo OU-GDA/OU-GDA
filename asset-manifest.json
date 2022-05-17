@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/OU-GDA/static/css/main.073c9b0a.css",
-    "main.js": "/OU-GDA/static/js/main.58701190.js",
-    "static/js/787.3bc84695.chunk.js": "/OU-GDA/static/js/787.3bc84695.chunk.js",
-    "static/media/logo.svg": "/OU-GDA/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/OU-GDA/static/css/main.d20132a5.css",
+    "main.js": "/OU-GDA/static/js/main.f0b8a899.js",
     "index.html": "/OU-GDA/index.html",
-    "main.073c9b0a.css.map": "/OU-GDA/static/css/main.073c9b0a.css.map",
-    "main.58701190.js.map": "/OU-GDA/static/js/main.58701190.js.map",
-    "787.3bc84695.chunk.js.map": "/OU-GDA/static/js/787.3bc84695.chunk.js.map"
+    "main.d20132a5.css.map": "/OU-GDA/static/css/main.d20132a5.css.map",
+    "main.f0b8a899.js.map": "/OU-GDA/static/js/main.f0b8a899.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.58701190.js"
+    "static/css/main.d20132a5.css",
+    "static/js/main.f0b8a899.js"
   ]
 }
