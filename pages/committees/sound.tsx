@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
 
-const Home: NextPage = () => {
+const Sound: NextPage = () => {
   return (
     <>
-      Home Page
+      Sound Team
     </>
   );
 }
 
-export default Home;
+export default Sound;
