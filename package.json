@@ -1,5 +1,5 @@
 {
-  "name": "OU-GDA-Site",
+  "name": "OU GDA Site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,6 @@
     "@types/node": "18.0.2",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
     "typescript": "4.7.4"
   }
