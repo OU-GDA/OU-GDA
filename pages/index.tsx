@@ -6,7 +6,7 @@ import HeaderImage from '../public/images/placeholder.jpg';
 const Home: NextPage = () => {
   return (
     <>
-      <Header src={HeaderImage} alt='Header'/>
+      <Header src={HeaderImage} alt='Header' overlay={<>Hello World!</>}/>
     </>
   );
 }

@@ -5,6 +5,7 @@ export interface HeaderProps
 {
     src: StaticImageData;
     alt: string;
+    overlay?: JSX.Element;
 }
 
 const Header = (props: HeaderProps) => {
@@ -14,6 +15,8 @@ const Header = (props: HeaderProps) => {
                 src={props.src} 
                 alt={props.alt}
             />
+
+            {props.overlay}
         </>
     );
 }
