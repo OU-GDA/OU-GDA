@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Header from '../public/components/Header';
 
-const Home: NextPage = () => {
+const Work: NextPage = () => {
   return (
     <>
       <Header />
@@ -9,4 +9,4 @@ const Home: NextPage = () => {
   );
 }
 
-export default Home;
+export default Work;
