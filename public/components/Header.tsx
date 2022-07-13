@@ -9,14 +9,20 @@ export interface HeaderProps
 }
 
 const Header = (props: HeaderProps) => {
+    const ratio: number = props.src.width / props.src.height;
+
     return (
         <>
             <Image 
                 src={props.src} 
                 alt={props.alt}
+                layout={'responsive'}
+                width={100 + 'vw'}
+                height={(100 / ratio) + 'vw'}
             />
-
-            {props.overlay}
+            <div>
+                {props.overlay}
+            </div>
         </>
     );
 }
