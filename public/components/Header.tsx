@@ -1,14 +1,19 @@
 import { NextPage } from "next";
+import Image, { StaticImageData } from "next/image";
 
 export interface HeaderProps 
 {
-    src?: string;
+    src: StaticImageData;
+    alt: string;
 }
 
-const Header: NextPage = () => {
+const Header = (props: HeaderProps) => {
     return (
         <>
-            Hello
+            <Image 
+                src={props.src} 
+                alt={props.alt}
+            />
         </>
     );
 }
