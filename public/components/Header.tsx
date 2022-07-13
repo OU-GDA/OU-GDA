@@ -5,6 +5,7 @@ export interface HeaderProps
 {
     src: StaticImageData;
     alt: string;
+    fadeColor: string;
     overlay?: JSX.Element;
 }
 
