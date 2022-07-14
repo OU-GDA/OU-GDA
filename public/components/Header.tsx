@@ -22,14 +22,14 @@ const Header = (props: HeaderProps) => {
                 height={(100 / ratio) + 'vw'}
             />
 
+            <div className="overlay" style={{
+                width:'100%', 
+                height:'100%', 
+                background:'linear-gradient(transparent, ' + props.fadeColor + ' 90%)'
+            }}/>
+
             <div className="overlay">
                 {props.overlay}
-
-                <div className="overlay" style={{
-                    width:'100%', 
-                    height:'100%', 
-                    background:'linear-gradient(transparent, ' + props.fadeColor + ' 90%)'
-                }}/>
             </div>
         </div>
     );
