@@ -1,13 +1,17 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
+
+// Constant Links
+const HomeLink: string = '/';
+const CommitteesLink: string = '/committees';
+const WorkLink: string = '/work';
 
 const NavBar = () => {
   return (
-    <>
-        <Link href={'/'} >Home</Link>
-        <Link href={'/committees'}>Committees</Link>
-        <Link href={'/work'}>Work</Link>
-    </>
+    <div className='nav-bar'>
+        <a className='nav-link' href={HomeLink}>Home</a>
+        <a className='nav-link' href={CommitteesLink}>Committees</a>
+        <a className='nav-link' href={WorkLink}>Work</a>
+    </div>
   );
 }
 
