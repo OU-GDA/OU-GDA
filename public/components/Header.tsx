@@ -15,10 +15,12 @@ const Header = (props: HeaderProps) => {
             backgroundImage:'url(' + props.src.src +')'}}
         >
 
+        {/** Gradient Fade */}
             <div className="overlay" style={{
                 background:'linear-gradient(transparent 75%, ' + props.fadeColor + ')'
             }}/>
 
+        {/** Passed Overlay Content */}
             <div className="overlay">
                 {props.overlay}
             </div>
