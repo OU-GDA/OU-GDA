@@ -6,7 +6,7 @@ import HeaderImage from '../public/images/placeholder.jpg';
 const Home: NextPage = () => {
   return (
     <>
-      <Header src={HeaderImage} alt='Header' fadeColor='#0F1113' overlay={<>Hello World!</>}/>
+      <Header src={HeaderImage} fadeColor='#0F1113' overlay={<>Hello World!</>}/>
     </>
   );
 }
