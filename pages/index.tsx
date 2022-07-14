@@ -16,9 +16,12 @@ const Home: NextPage = () => {
   return (
     <>
     {/** Page Header */}
-      <Header src={HeaderImage} fadeColor={'#0F1113'} overlay={
+      <Header src={HeaderImage} fadeColor='#0F1113' overlay={
         <>
         {/** Header Logo Image */}
+          <div style={{width:'400px', padding:'50px'}}>
+            <Image src={Logo} alt='Logo' layout='responsive'/>
+          </div>
 
         {/** Header Text */}
           <div>
@@ -35,6 +38,7 @@ const Home: NextPage = () => {
         </>
       }/>
 
+      <p>Site Under Construction...</p>
     </>
   );
 }
