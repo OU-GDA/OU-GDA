@@ -1,0 +1,3 @@
+[submodule "src/pages/Posts"]
+	path = src/pages/Posts
+	url = https://github.com/OU-GDA/Posts
