@@ -1,0 +1,11 @@
+---
+import CoreLayout from "./CoreLayout.astro";
+
+const { frontmatter = {
+    title: "Blog Post"
+} } = Astro.props;
+---
+
+<CoreLayout title={frontmatter.title}>
+    <slot />
+</CoreLayout>
