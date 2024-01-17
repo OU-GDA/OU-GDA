@@ -1,11 +1,13 @@
 ---
 import CoreLayout from "./CoreLayout.astro";
 
-const { frontmatter = {
-    title: "Blog Post"
-} } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <CoreLayout title={frontmatter.title}>
+    <div>
+        <h1>{frontmatter.title ?? "MISSING TITLE"}</h1>
+        <p>{frontmatter.author ?? "MISSING AUTHOR"} / {frontmatter.date ?? "MISSING DATE"}</p>
+    </div>
     <slot />
 </CoreLayout>
